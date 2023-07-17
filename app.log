@@ -1,0 +1,8 @@
+2023-06-08 21:59:44,277 - INFO - Loading data from file: currency_data.txt
+2023-06-08 21:59:44,277 - INFO - Data loaded successfully
+2023-06-08 21:59:44,277 - INFO - Calculating the maximum return over the year ...
+2023-06-08 21:59:48,062 - INFO - Maximum possible return over the year: 270.57%
+2023-06-29 14:00:30,026 - INFO - Loading data from file: currency_data.txt
+2023-06-29 14:00:30,026 - INFO - Data loaded successfully
+2023-06-29 14:00:30,026 - INFO - Calculating the maximum return over the year ...
+2023-06-29 14:00:33,802 - INFO - Maximum possible return over the year: 270.57%

@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "returns-calculator"
+version = "0.1.0"
+description = "Calculate maximum returns over a year"
+authors = ["Lathashree H <lathashree.harisha@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.3"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+coverage = "^7.2.7"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs/|
+    \.git/|
+    \.hg/|
+    \.mypy_cache/|
+    \.nox/|
+    \.tox/|
+    \.venv/|
+    _build/|
+    buck-out/|
+    build/|
+    dist/
+)/
+'''
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
